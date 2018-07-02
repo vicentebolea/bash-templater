@@ -11,5 +11,5 @@ do
   do
     line=`sed "s@\@${keyword}\@@${!keyword}@g" <<<"$line"`
   done 
-  echo $line
+  echo "$line"
 done < /dev/stdin 

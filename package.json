@@ -1,6 +1,6 @@
 {
   "name": "bash-templater",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "The most basic template engine",
   "scripts": [ "templater" ],
   "install": "make install"
