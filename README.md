@@ -18,7 +18,7 @@ You have this `file.template`:
 ```markdown
 # My template
 ## Author
- - $NAME <$EMAIL>
+ - @NAME@ <@EMAIL@>
 ```
 And this `rules` file:
 ```bash
