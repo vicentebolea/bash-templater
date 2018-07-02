@@ -1,8 +1,19 @@
-# bash-templater [![Build Status](https://travis-ci.org/vicentebolea/bash-templater.svg?branch=master)](https://travis-ci.org/vicentebolea/bash-templater)
+# BASH TEMPLATER [![Build Status](https://travis-ci.org/vicentebolea/bash-templater.svg?branch=master)](https://travis-ci.org/vicentebolea/bash-templater)
 
 Simplest Template Engine Ever (Written in BASH)
 
 ## TL;DR
+
+Installing:
+
+     bpkg install vicentebolea/bash-templater
+
+Using it:
+
+    templater vars < file.template
+     
+     
+## USE ME
 You have this `file.template`:
 ```markdown
 # My template
@@ -29,3 +40,14 @@ You get this:
 ## The only rule
 
 Escape the `@` character like `\@` in the rules file.
+
+## INSTALL ME
+Use the fantastic BASH package manager BPKG and just: 
+
+    bpkg install vicentebolea/bash-templater
+    
+## AUTHORS
+  - Vicente Adolfo Bolea Sanchez <vicente.bolea@gmail.com>
+
+## THANKS TO
+ - https://github.com/bpkg/bpkg
