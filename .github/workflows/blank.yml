@@ -30,4 +30,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: shellcheck
-        run: shellcheck ./templater
+        run: shellcheck -e SC1090 ./templater
+        
+      # Runs unit test
+      - name: shellcheck
+        run: |
+         cd test
+         ./test-runner.sh
