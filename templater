@@ -12,4 +12,4 @@ do
     line=$(sed "s@\@${keyword}\@@${!keyword}@g" <<<"$line")
   done 
   echo "$line"
-done < /dev/stdin 
+done < /dev/stdin
