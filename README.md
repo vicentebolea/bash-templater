@@ -1,4 +1,4 @@
-# BASH TEMPLATER [![Build Status](https://travis-ci.org/vicentebolea/bash-templater.svg?branch=master)](https://travis-ci.org/vicentebolea/bash-templater)
+# BASH TEMPLATER [![CI](https://github.com/vicentebolea/bash-templater/actions/workflows/blank.yml/badge.svg?branch=master)](https://github.com/vicentebolea/bash-templater/actions/workflows/blank.yml)
 
 Simplest Template Engine Ever (Written in BASH)
 
