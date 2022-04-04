@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rules=$1
-source $rules
+rules="$1"
+source "$rules"
 
-mapfile -t keywords < <(< $1 sed -n 's/^\([A-Za-z0-9_]\+\)=.*$/\1/p')
+mapfile -t keywords < <(< "$1" sed -n 's/^\([A-Za-z0-9_]\+\)=.*$/\1/p')
 
 while read line
 do
