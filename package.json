@@ -3,5 +3,5 @@
   "version": "0.0.4",
   "description": "The most basic template engine",
   "scripts": [ "templater" ],
-  "install": "make install"
+  "install": "install ./templater ${PREFIX}/bin/",
 }
