@@ -11,8 +11,8 @@ Installing:
 Using it:
 
     templater vars < file.template
-     
-     
+
+
 ## USE ME
 You have this `file.template`:
 ```markdown
@@ -42,10 +42,10 @@ You get this:
 Escape the `@` character like `\@` in the rules file.
 
 ## INSTALL ME
-Use the fantastic BASH package manager BPKG and just: 
+Use the fantastic BASH package manager BPKG and just:
 
     bpkg install vicentebolea/bash-templater
-    
+
 ## AUTHORS
   - Vicente Adolfo Bolea Sanchez <vicente.bolea@gmail.com>
 
